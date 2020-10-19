@@ -1,11 +1,20 @@
-const countEl = document.getElementById('count');
+const countEl = document.getElementById('VisitorCount');
+updateCount();
 
-updateVisitCount();
-
-function updateVisitCount(){
-    fetch('https://api.countapi.xyz/update/resume/resume/?amount=1')
-        .then(res => res.json())
-        .then(res => {
-            countEl.innerHTML = res.value;
+function updateCount(){
+    fetch('https://oeplklbde1.execute-api.us-east-2.amazonaws.com/Prod/counter',{
+        method: 'GET'
     })
+  .then(response => {
+    if (
+        response.ok 
+    ) {
+      return response.json()
+    } else {
+      throw new Error('something went wrong');
+    }
+  })
+  .then(data => countEl.innerText = data.Visit_Count)
+    
+  
 }
