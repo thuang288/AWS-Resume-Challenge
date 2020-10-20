@@ -17,15 +17,15 @@
         </p>
     </div>
 
-    <h1>Resume</h1>
-    <h2>Name</h2>
-    <h3>email | phone number</h3>
-    <h4 class="head">EDUCATION & CERTIFICATION</h4>
+    <h1>Tommy Huang</h1>
+    <h2>thuang20017@gmail.com| (646) 203-8272</h2>
+    <h3>https://github.com/thuang288 | www.linkedin.com/in/thuang20018 https://d1b5nqo5osj1ao.cloudfront.net/ </h3>
+    <h4 class="head">EDUCATION</h4>
     <hr />
     <p>
-        College Name
+        Brooklyn College
         <span class="text-right">
-            Location
+            Brooklyn, NY
         </span>
     </p>
 
@@ -36,19 +36,27 @@
         </span>
     </p>
 
+
+        <h5 class="head">Certifications</h5>
+    <hr />
     <p>
-        Certifications: AZ-103 Microsfot Azure Administrator
+        AWS Certified Solutions Architect – Associate
         <span class="text-right">
-            Certification number: H396-9358
+            Expires September 2023
         </span>
     </p>
-    <br>
+    <p>
+        AZ-103 Microsoft Azure Administrator
+        <span class="text-right">
+        Expires April 2022    
+        </span>
+    </p>
     <h5 class="head">PROFESSIONAL EXPERIENCE</h5>
     <hr />
     <p>
-        Company Name
+        <strong>NYU Langone Health</strong>
         <span class="text-right">
-            Location
+            Manhattan, NY
         </span>
     </p>
     <p class="italic">
@@ -58,14 +66,14 @@
         </span>
     </p>
     <ul>
-        <li>Onboarded five employees through imaging and deploying laptops and tablets while adhering to the organization’s risk and compliance program</li>
-        <li>Deployed tablets by integrating the Epic patient management system with Microsoft Windows capabilities at five different hospitals to provide self check-in capabilities for 1,000+ patients and minimize errors</li>
+        <li>Deployed tablets by integrating the Epic patient management system with Microsoft Windows capabilities at five different hospitals to provide self-check-in capabilities for 1,000+ patients and minimize errors</li>
+        <li>Trained five employees through imaging and deploying laptops and tablets while adhering to the organization’s risk and compliance program</li>
         <li>Maintained the IT environment by providing continuous troubleshooting assistance to 10+ workstations</li>
     </ul>
     <p>
-        Company Name
+        <strong>New York City Department of Education</strong>
         <span class="text-right">
-            Location
+            Manhattan, NY
         </span>
     </p>
     <p class="italic">
@@ -75,14 +83,14 @@
         </span>
     </p>
     <ul>
-        <li>Managed IT change requests to the internal student database to ensure the information for 100+ students is optimized for analysis and extraction</li>
-        <li>Engaged with 30+ clients to diagnose and resolve hardware and software issues to create a seamless experience for students and faculty</li>
+        <li>Organized IT change requests to the internal student database using Excel to ensure the information for 100+ students that is optimized for analysis and extraction</li>
+        <li>Engaged with 30+ clients to diagnose and resolve hardware and software issues (printers, projectors, speakers, microphones) to create a seamless experience for students and faculty</li>
         <li>Coordinated 10+ hardware upgrades over an implementation schedule that least impacted day-to-day operations</li>
     </ul>
     <p>
-        Company Name
+        <strong>Eternity 1 Tutoring Center</strong>
         <span class="text-right">
-            Location
+            Manhattan, NY  
         </span>
     </p>
     <p class="italic">
@@ -92,13 +100,12 @@
         </span>
     </p>
     <ul>
-        <li>Provided academic assistance to elementary school students to guide them towards higher learning capabilities</li>
         <li>Cooperated with a team of 10+ instructors to manage program operations and safety for children</li>
         <li>Supervised a class of up to 20 children and promoted well-rounded educational development by incorporating time for academic, creative, and social activities</li>
     </ul>
 
     <p>
-        Company Name
+        <strong>Unidata </strong>
         <span class="text-right">
             Location
         </span>
@@ -110,14 +117,43 @@
         </span>
     </p>
     <ul>
-        <li>Provided technical assistance and support for incoming queries while helping clients fix system issues </li>
-        <li>Performed 100+ hardware installs, disconnects, reconnects, relocations, and installed new workstations for clients every week to ensure 24/7 functioning systems</li>
-        <li>Provided weekly training for up to five new technicians on the system infrastructure to ensure an understanding of various troubleshooting steps</li>
+        <li>Completed 100+ hardware installs, disconnects, reconnects, relocations, and installed new workstations for clients every week to ensure 24/7 functioning systems </li>
+        <li>Guided weekly training for up to five new technicians on the system infrastructure to ensure an understanding of various troubleshooting steps</li>
     </ul>
-    <h6 class="head">ACADEMIC PROJECT</h6>
+    <h6 class="head">PROJECTS</h6>
     <hr />
     <p>
-        Capism (Computer Management Games)
+        <strong>Cloud Resume Challenge</strong>
+        <span class="text-right">
+            October 2020
+        </span>
+    </p>
+
+    <ul>
+        <li>Created a Resume template with a visitor counter using HTML, CSS, and JavaScript, stored it in a S3 Bucket for a static site, used CloudFront to speed up distribution of the web content, used a Lambda function to update visitor count which is then stored in a database using DynamoDB</li>
+    </ul>
+    <p>
+        <strong>Media Sharing with AWS</strong>
+        <span class="text-right">
+            October 2020
+        </span>
+    </p>
+
+    <ul>
+        <li>Hosted a media sharing site using an EC2 instance to host the web server, used an S3 Bucket to store the image and created a database to store information of the images from the website using DynamoDB</li>
+    </ul>
+     <p>
+         <strong>Rock Paper Scissor</strong>
+        <span class="text-right">
+            May 2020
+        </span>
+    </p>
+
+    <ul>
+        <li>Created a rock, paper, scissor website that also keeps track of score using HTML, CSS, and JavaScript </li>
+    </ul>
+    <p>
+        <strong>Capism (Computer Management Games)</strong>
         <span class="text-right">
             Fall 2019
         </span>
@@ -125,7 +161,6 @@
 
     <ul>
         <li>Organized a company in a simulation by managing Research & Development, Marketing, Finance departments</li>
-        <li>Typed up weekly summaries with group members explaining what other groups did and what our group did for the week and the state of our company</li>
         <li>Presented business plans and strategies in front of 20 classmates explaining how we won and became top performers.</li>
     </ul>
 
@@ -133,7 +168,7 @@
     <hr />
     <p>Programming Languages: Java, Python, HTML, CSS, SQL</p>
 
-    <p>Applications: Microsoft Office Suite (Word, PowerPoint, Excel, Access), Adobe Photoshop, Audacity, Tableau</p>
+    <p>Applications: Microsoft Office Suite (Word, PowerPoint, Excel, Access), Adobe Photoshop, Tableau</p>
 
     <p>Systems: Ubuntu, Windows (XP, 7, 8, 8.1, 10)</p>
 
