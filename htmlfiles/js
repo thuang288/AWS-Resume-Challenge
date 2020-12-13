@@ -1,4 +1,4 @@
-const countEl = document.getElementById('VisitorCount');
+ const countEl = document.getElementById('Visit_Count');
 updateCount();
 
 function updateCount(){
