@@ -13,50 +13,47 @@
 <body>
     <div>
         <p style="text-align: center;">
-            Visits: <span id="VisitorCount"></span>
+            Visits: <span id="Visit_Count"></span>
         </p>
     </div>
 
     <h1>Tommy Huang</h1>
-    <h2>thuang20017@gmail.com| (646) 203-8272</h2>
-    <h3>https://github.com/thuang288 | www.linkedin.com/in/thuang20018 https://d3u0mmgsqj08ol.cloudfront.net   </h3>
+    <h2>thuang20017@gmail.com | (646) 203-8272</h2>
+    <h3><a href="https://github.com/thuang288">Github</a> | <a href="https://linkedin.com/in/thuang20018">Linkedin</a></h3>
     <h4 class="head">EDUCATION</h4>
     <hr />
     <p>
-        Brooklyn College
+        <strong>Brooklyn College, The City University of New York</strong>
         <span class="text-right">
             Brooklyn, NY
         </span>
     </p>
 
     <p>
-        Bachelor of Science in Computer Information Systems, GPA: 3.3/4.00
-        <span class="text-right">
-            Graduated December 2019
-        </span>
+        Bachelor of Science in Computer Information Systems, <strong>GPA: 3.3/4.00</strong>
     </p>
 
 
         <h5 class="head">Certifications</h5>
     <hr />
     <p>
-        AWS Certified Solutions Architect – Associate
+        AWS Certified Solutions Architect Associate
         <span class="text-right">
-            Expires September 2023
+            September 2020
         </span>
     </p>
     <p>
         AZ-103 Microsoft Azure Administrator
         <span class="text-right">
-        Expires April 2022    
+            April 2020    
         </span>
     </p>
-    <h5 class="head">PROFESSIONAL EXPERIENCE</h5>
+    <h5 class="head">EXPERIENCE</h5>
     <hr />
     <p>
         <strong>NYU Langone Health</strong>
         <span class="text-right">
-            Manhattan, NY
+            New York, NY
         </span>
     </p>
     <p class="italic">
@@ -73,7 +70,7 @@
     <p>
         <strong>New York City Department of Education</strong>
         <span class="text-right">
-            Manhattan, NY
+            New York, NY
         </span>
     </p>
     <p class="italic">
@@ -90,7 +87,7 @@
     <p>
         <strong>Eternity 1 Tutoring Center</strong>
         <span class="text-right">
-            Manhattan, NY  
+            New York, NY  
         </span>
     </p>
     <p class="italic">
@@ -107,7 +104,7 @@
     <p>
         <strong>Unidata </strong>
         <span class="text-right">
-            Location
+            New York, NY
         </span>
     </p>
     <p class="italic">
@@ -123,6 +120,17 @@
     <h6 class="head">PROJECTS</h6>
     <hr />
     <p>
+        <strong>Auto Messaging with Python</strong>
+        <span class="text-right">
+            October 2020
+        </span>
+    </p>
+
+    <ul>
+        <li>Created auto messenger to phone using Twilio’s API to send daily reminders during the day, afternoon and night</li>
+    </ul>
+
+    <p>
         <strong>Cloud Resume Challenge</strong>
         <span class="text-right">
             October 2020
@@ -130,7 +138,7 @@
     </p>
 
     <ul>
-        <li>Created a Resume template with a visitor counter using HTML, CSS, and JavaScript, stored it in a S3 Bucket for a static site, used CloudFront to speed up distribution of the web content, used a Lambda function to update visitor count which is then stored in a database using DynamoDB</li>
+        <li>Created a Resume template with a visitor counter using HTML, CSS, and JavaScript, stored it in a S3 Bucket for a static site, used CloudFront CDN to speed up distribution of the web content, used AWS SAM CLI to deploy Lambda function and API gateway to update visitor count which is then stored in a database using DynamoDB</li>
     </ul>
     <p>
         <strong>Media Sharing with AWS</strong>
@@ -155,7 +163,7 @@
     <p>
         <strong>Capism (Computer Management Games)</strong>
         <span class="text-right">
-            Fall 2019
+            December 2019
         </span>
     </p>
 
