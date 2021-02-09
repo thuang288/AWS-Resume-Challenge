@@ -3,12 +3,13 @@ body, body * {
   margin: auto;
 }
 
+
 h1,h2,h3 {
   text-align: center;
 }
 
 .head {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .container {
